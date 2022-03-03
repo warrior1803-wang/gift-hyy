@@ -1,0 +1,33 @@
+#audio-player-container::before {
+  
+    content: '';
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(to left, #007db5, #ff8a00);
+    z-index: -1;
+    
+  }
+  #audio-player-container{
+    position: fixed;
+    bottom: 5%;
+    right: 0px;
+    left: 100px;
+    z-index: 11;
+  }
+  p {
+    position: absolute;
+    top: -18px;
+    right: 5%;
+    padding: 0 5px;
+    margin: 0;
+    font-size: 28px;
+    background: #fff;
+  }
+  #play-icon {
+    margin: 20px 2.5% 20px 2.5%;
+  }
+  path {
+    stroke: #007db5;
+  }
